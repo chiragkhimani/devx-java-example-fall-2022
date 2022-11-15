@@ -1,6 +1,6 @@
 package com.java.class23;
 
-//Write a program to find all duplicates number from the array
+    //Write a program to find all duplicates number from the array
 //        Example
 //        Input : 23, 44, 21, 23, 27, 35, 75, 44, 25
 //        Output : Duplicate numbers - 23, 44

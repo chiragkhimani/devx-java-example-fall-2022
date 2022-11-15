@@ -22,8 +22,5 @@ public class FindReverseOfGivenString {
             System.out.print(name.charAt(name.length()- 1 - i));
         }
 
-
-
-
     }
 }
