@@ -1,0 +1,39 @@
+This & Super 
+
+this -  refers to a current class object, using this keyword we can access instance variable, methods and we can call
+	current class Constructor 
+
+super - refers to parent class object, using super keyword we can access instance variable & methods of parent class
+as well we can call Constructor of parent class
+
+*Polymorphism - Many forms - It is a capability of an object to behave differently in different situation
+
+ How can we achieve polymorphism in java 
+
+	1) Method Overloading 
+
+	* It is capability in java to have more than one method in the same class having the same name but differnt 
+	  parameters
+
+		1) Either we can change number of parameters
+		2) OR we can change type of parameters
+
+
+		Method Signature - Combination of method name with parameters called method Signature, example - sum(boolean a, int b)
+
+	* Example
+		1) void sum(int a, int b), void sum(int c, int d)			- Not overloaded
+		2) void sum(boolean b, int a), void sum(boolean a, int b)   		- Not overloaded
+		3) void sum(int a, char b, int c), void sum(int a, int b, char c) 	- Overloaded
+		4) void sum(int a), double sum(int b)					- Not overloaded
+	
+	2) Method Overriding 
+	
+	* It is a mechanism when child class will override (rewrite) parent class method, having same name, same parameters but
+	  Child class can change the implementation
+	
+	3) Dynamic Polymorphism / Run-Time Polymorphism
+		
+		Browser b = new Chrome();
+
+

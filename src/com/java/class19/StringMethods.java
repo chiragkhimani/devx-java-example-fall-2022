@@ -37,7 +37,7 @@ public class StringMethods {
         // 8. Check if String is empty
         String str5 = "   ";
         System.out.println(str5.isEmpty()); // false
-        System.out.println(str5.isBlank()); // true
+//        System.out.println(str5.isBlank()); // true
 
         // 9. Trim - trimming spaces before and after String
         String str6 = "             Hello     World     ";
