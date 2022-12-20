@@ -21,8 +21,12 @@ public class SetPracticleExample {
         listOfData.add("Tomato");
         listOfData.add("Apple");
         listOfData.add("Banana");
+        listOfData.add("Banana");
+        listOfData.add("Banana");
+        listOfData.add("Banana");
 
-        System.out.println(listOfData);
+
+//        System.out.println(listOfData);
 
 //        System.out.println("Unique Items in the list");
 //        Set<String> uniqueItem = new HashSet<>();
@@ -35,9 +39,9 @@ public class SetPracticleExample {
         Set<String> uniqueItem = new HashSet<>();
 
         for (String item : listOfData) {
-            if (uniqueItem.add(item) == false) {
-                duplicateItems.add(item);
-            }
+           if(uniqueItem.add(item)==false){
+               duplicateItems.add(item);
+           }
         }
 
         System.out.println("Duplicate items - " + duplicateItems);
